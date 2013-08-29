@@ -1,0 +1,37 @@
+/* Standard */
+body{
+	background-color:#d0e4fe;
+	font-family:"Ubuntu";
+	font-size:20px;
+}
+#container{
+	position: absolute;
+	width: 500px;
+	height: 1000px;
+	top: 10px;
+	left: 10px;
+}
+#addItem{
+	width: 300px;
+	height: 20px;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+#objects{
+	width: 300px;
+	height: 100%;
+	margin-left: 50px;
+	margin-top: 10px;
+
+}
+.objects{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	border: 1px solid black;
+}
+.stars{
+	position: relative;
+	width: 19.33%;
+	height: 50px;
+}
