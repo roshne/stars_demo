@@ -5,7 +5,6 @@ function addItem(){
 	var objID="objSpan"+objCount;
 	var str="<div id='"+objID+"' class='objects'>";
 	for(var i=1;i<=5;i++){
-
 		str += "<img src='images/unlit-star.png' ";
 		str += "id='star_"+i+"_"+objID+"' ";
 		str += "name='star_"+i+"_"+objID+"' ";		
@@ -17,7 +16,7 @@ function addItem(){
 		str += "</img>";
 	}
 	str +="</div>";
-	$('#objects').append(str);
+	$('#objectsDiv').append(str);
 	objCount++;
 }
 function mouseEnterStar(e){
